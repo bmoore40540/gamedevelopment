@@ -1,0 +1,22 @@
+# Godot (4.x)
+.godot/
+.import/
+*.import
+
+# Optional C# / Mono
+.mono/
+
+# Export presets are usually committed; export artifacts are not
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Local/editor junk
+.DS_Store
+Thumbs.db
+
+# Build artifacts (keep directory)
+builds/*
+!builds/.gitkeep
+
