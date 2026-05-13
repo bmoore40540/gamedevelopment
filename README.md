@@ -58,7 +58,7 @@ A simple room-scale VR scene with:
 ## Next steps
 
 1. Follow `docs/setup.md`
-2. Create the Godot project in `godot/`
+2. Open the Godot project in `godot/`
 3. Enable OpenXR and Android export
 4. Build a test APK
 5. Iterate on the first VR interaction loop

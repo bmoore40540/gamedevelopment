@@ -2,7 +2,7 @@
 
 This directory contains the Godot project for the Meta Quest 3S game.
 
-## Planned contents
+## Contents
 
 - `project.godot` — project configuration
 - `scenes/` — XR and gameplay scenes
@@ -21,3 +21,8 @@ Create the smallest possible OpenXR-ready project that can:
 - initialize VR correctly
 - track headset and controllers
 - render a basic test room
+
+## Current starter scene
+
+- Main scene: `res://scenes/Main.tscn`
+- XR bootstrap script: `res://scripts/xr_bootstrap.gd`
