@@ -29,6 +29,14 @@ sudo apt update && sudo apt install -y adb
 2. Enable OpenXR plugin support.
 3. Set your main XR scene under `Application > Run > Main Scene`.
 
+### Quest-friendly rendering defaults (recommended)
+
+In `Project Settings`, these defaults are a good starting point for Meta Quest 3S performance:
+
+- Use the **Mobile** renderer (Forward Mobile), not Forward+.
+- Keep MSAA modest (often **2x**) and avoid expensive post-processing (SSAO, glow, volumetrics) unless required.
+- Prefer **no real-time shadows** in early prototypes; add them later only if you can afford the cost.
+
 ## 4. Configure Android Export
 
 1. Open `Project > Export`.
