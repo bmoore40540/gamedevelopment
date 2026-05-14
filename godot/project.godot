@@ -1,0 +1,27 @@
+; Placeholder starter file.
+; Recommended: open this folder in the Godot editor so it writes version-specific
+; project settings compatible with your installed Godot 4.x release.
+
+[application]
+
+config/name="Meta Quest 3S Prototype"
+run/main_scene="res://scenes/BasicRoom.tscn"
+
+[input]
+
+smite_enemies={
+"deadzone": 0.5,
+"events": []
+}
+disintegrate_building={
+"deadzone": 0.5,
+"events": []
+}
+spawn_tsunami={
+"deadzone": 0.5,
+"events": []
+}
+spawn_earthquake={
+"deadzone": 0.5,
+"events": []
+}

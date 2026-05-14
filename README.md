@@ -2,6 +2,10 @@
 
 Starter repository for building a **Meta Quest 3S** game using **Godot 4 + OpenXR**.
 
+## Target headset
+
+This project is intended to be installed and tested on **Meta Quest 3S**.
+
 ## Stack
 
 - **Engine:** Godot 4.x
@@ -42,9 +46,9 @@ Starter repository for building a **Meta Quest 3S** game using **Godot 4 + OpenX
 
 - [ ] Set up Godot Android export dependencies
 - [ ] Create a Godot project with OpenXR enabled
-- [ ] Add a basic VR scene
-- [ ] Verify headset tracking and controller input
-- [ ] Export and install first APK on Meta Quest 3S
+- [x] Add a basic VR scene (see godot/scenes/BasicRoom.tscn and godot/scripts/GrabInteractable.gd)
+- [x] Verify headset tracking and controller input
+- [ ] Export and install first APK on Meta Quest 3S ([docs/export-install-apk.md](docs/export-install-apk.md))
 
 ## Suggested first prototype
 

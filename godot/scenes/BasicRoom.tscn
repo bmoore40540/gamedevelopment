@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource path="../scripts/GrabInteractable.gd" type="Script" id=1]
+
+[node name="Room" type="Node3D"]
+
+[node name="Floor" type="StaticBody3D" parent="."]
+transform = Transform3D.IDENTITY
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
+mesh = BoxMesh.new()
+scale = Vector3(4, 0.1, 4)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="LeftController" type="XRController3D" parent="."]
+hand = "left"
+
+[node name="RightController" type="XRController3D" parent="."]
+hand = "right"
+
+[node name="Cube" type="RigidBody3D" parent="."]
+transform = Transform3D.IDENTITY.translated(Vector3(0, 0.5, 0))
+script = ExtResource( 1 )

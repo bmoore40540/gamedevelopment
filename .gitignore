@@ -1,0 +1,44 @@
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Editor/IDE local settings
+# Keep shared recommendations, ignore local machine state
+# -----------------------------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# -----------------------------
+# Godot generated cache/import data
+# (safe to regenerate; should not be committed)
+# -----------------------------
+.godot/
+.import/
+
+# -----------------------------
+# Mono/C# generated artifacts
+# -----------------------------
+.mono/
+mono_crash.*.json
+data_*/
+
+# -----------------------------
+# Export/build outputs
+# Keep folder structure with .gitkeep
+# -----------------------------
+builds/*
+!builds/.gitkeep
+*.apk
+*.aab
+
+# -----------------------------
+# Logs/temp files
+# -----------------------------
+*.log
+*.tmp
+*.temp
